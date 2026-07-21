@@ -53,8 +53,10 @@ python_impl:
 #      the `apr` package).
 apr:
   - '1'
+c_blosc2:
+  - '3.1'
 cffi:
-  - '1'
+  - '2'
 cfitsio:
   - 4.6.2
 eigen:
@@ -70,7 +72,7 @@ libboost_python_devel:
 # to get the recipe to solve. I think this is due
 # to krb5 1.22 and zeromq, but that is a total guess.
 libpq:
-  - '18.2'
+  - '18.4'
 libxml2:
   - '2.14'
 libxml2_devel:
@@ -82,7 +84,7 @@ minuit2:
 ndarray:
   - '1'
 numpy:
-  - '2.3'
+  - '2.4'
 starlink_ast:
   - '9.3.1'
 wcslib:
