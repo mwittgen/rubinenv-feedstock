@@ -178,6 +178,7 @@ outputs:
         - healsparse >=1.11.1
         - hpgeom >=1.4.0
         - htcondor >=24.0,<24.1
+        - httpx2 >=2.2.0 # RFC-1191
         - humanize >=4.14.0
         - idds-client >=2.4.1
         - idds-doma >=2.4.1
