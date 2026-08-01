@@ -165,6 +165,7 @@ outputs:
         - networkx <3
         - numexpr =2
         - ${{ pin_compatible('numpy') }}
+        - panda-client <2  # version 2 requires httpx
         - pandas <2
         - paramiko <5
         - pgcli
