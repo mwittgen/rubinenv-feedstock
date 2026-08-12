@@ -85,7 +85,7 @@ outputs:
         - pytest-session2file
         - pytest-subtests ==0.12.1
         - pytest-xdist ==3.5
-        # Scons 4.11 break builds: https://github.com/SCons/scons/issues/4893
+        # Scons 4.11 breaks builds: https://github.com/SCons/scons/issues/4893
         - scons <4.11
         - setuptools <70
 
